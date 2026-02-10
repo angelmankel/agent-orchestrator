@@ -9,7 +9,8 @@
       "Bash(powershell -Command \"& ''C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe'' repo create agent-orchestrator --public --source=. --description ''Multi-agent development platform with web UI''\")",
       "Bash(powershell -Command \"& 'C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe' auth status\":*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(powershell:*)"
     ]
   }
 }

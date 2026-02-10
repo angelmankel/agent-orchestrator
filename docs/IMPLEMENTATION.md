@@ -184,6 +184,14 @@ agent-orchestrator/
 
 ---
 
+## Current Status
+
+**Phases 1-4 complete** (2026-02-10):
+- Backend: FastAPI + SQLite with full schema
+- Ideas Pipeline: Refinement, Q&A, approval flow
+- Dev Pipeline: Developer, builder, tester, reviewer agents
+- Web UI: Svelte dashboard, ideas inbox, dev queue, agents page
+
 ## Next Step
 
-Start with Phase 1.1: Create the SQLite database and core models.
+Continue with Phase 5: Planning Studio (document management, templates, export).
