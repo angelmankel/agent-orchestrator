@@ -1,0 +1,15 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git init:*)",
+      "Bash(gh repo create:*)",
+      "Bash(cmd /c \"gh repo create agent-orchestrator --public --source=. --description \"\"Multi-agent development platform with web UI\"\"\")",
+      "Bash(powershell -Command \"gh repo create agent-orchestrator --public --source=. --description ''Multi-agent development platform with web UI''\")",
+      "Bash(powershell -Command \"Get-Command gh -ErrorAction SilentlyContinue; if\\(-not $? { Get-ChildItem ''C:\\\\Program Files\\\\GitHub CLI'' -ErrorAction SilentlyContinue; Get-ChildItem ''C:\\\\Users\\\\donny\\\\AppData\\\\Local\\\\Programs'' -ErrorAction SilentlyContinue }\")",
+      "Bash(powershell -Command \"& ''C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe'' repo create agent-orchestrator --public --source=. --description ''Multi-agent development platform with web UI''\")",
+      "Bash(powershell -Command \"& 'C:\\\\Program Files\\\\GitHub CLI\\\\gh.exe' auth status\":*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
+    ]
+  }
+}
